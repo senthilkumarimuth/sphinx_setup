@@ -1,8 +1,8 @@
 import sys
 import os
 from pathlib import Path, PurePath
-sys.path.append(str(Path(str(PurePath(Path(__file__).parents[1])) + os.sep +"src")))
-sys.path.append(str(PurePath(Path(__file__).parents[1])))
+sys.path.append(str(Path(str(PurePath(Path(__file__).parents[2])) + os.sep +"src")))
+sys.path.append(str(PurePath(Path(__file__).parents[2])))
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
